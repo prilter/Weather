@@ -71,7 +71,7 @@ func main() {
 	// buttons
 	searchButton := widget.NewButton("Узнать погоду", func() { // function
 
-		w, err := openweathermap.NewCurrent("C", "EN", "649896f57f241e916a80292f65b1f6f6")
+		w, err := openweathermap.NewCurrent("C", "EN", "YOUR_API")
 		if err != nil {
 			fmt.Println(err)
 		}
